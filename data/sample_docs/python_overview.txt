@@ -1,0 +1,70 @@
+Python Programming Language — Overview
+=======================================
+
+Python is a high-level, general-purpose programming language. Its design philosophy
+emphasizes code readability with the use of significant indentation. Python is dynamically
+typed and garbage-collected. It supports multiple programming paradigms, including structured,
+object-oriented, and functional programming.
+
+History
+--------
+Python was created by Guido van Rossum and first released in 1991. Van Rossum designed
+Python to be easy to read and simple to implement. The name "Python" was inspired by
+Monty Python's Flying Circus, a BBC comedy series. Python 2.0 was released in 2000 and
+introduced list comprehensions and a garbage collection system capable of collecting
+reference cycles. Python 3.0 was released in 2008 and was a major revision not completely
+backward-compatible with Python 2.
+
+Key Features
+-------------
+1. Readability: Python uses indentation to delimit code blocks, enforcing clean style.
+2. Rich Standard Library: Python comes with a large standard library covering file I/O,
+   networking, databases, mathematics, and more.
+3. Cross-platform: Python runs on Windows, macOS, Linux, and many other platforms.
+4. Interpreted: Python code is executed line by line, making debugging easier.
+5. Dynamic Typing: Variable types are inferred at runtime, not declared explicitly.
+
+Popular Use Cases
+------------------
+- Web Development: Frameworks like Django and FastAPI make server-side development fast.
+- Data Science: Libraries like NumPy, pandas, and matplotlib power data analysis.
+- Machine Learning: PyTorch, TensorFlow, and scikit-learn are the de facto ML tools.
+- Automation and Scripting: Python is often the first choice for automating repetitive tasks.
+- Scientific Computing: Used extensively in academia and research.
+
+FastAPI Framework
+------------------
+FastAPI is a modern, fast web framework for building APIs with Python 3.8+ based on
+standard Python type hints. Key characteristics:
+- Very high performance, on par with NodeJS and Go
+- Fast to code: increases development speed by 200–300%
+- Fewer bugs due to automatic validation via Pydantic models
+- Automatic interactive API documentation (Swagger UI and ReDoc)
+- Based on open standards: OpenAPI and JSON Schema
+
+Installing FastAPI:
+  pip install fastapi uvicorn
+
+A minimal FastAPI application:
+  from fastapi import FastAPI
+  app = FastAPI()
+
+  @app.get("/")
+  def read_root():
+      return {"Hello": "World"}
+
+Virtual Environments
+---------------------
+A virtual environment is an isolated Python environment that allows packages to be installed
+for a specific project without affecting other projects. To create one:
+  python -m venv venv
+  source venv/bin/activate  # On Windows: venv\Scripts\activate
+  pip install -r requirements.txt
+
+Package Management
+-------------------
+pip is Python's standard package manager. Common commands:
+  pip install package_name         # Install a package
+  pip install -r requirements.txt  # Install from file
+  pip freeze > requirements.txt    # Save current packages
+  pip uninstall package_name       # Remove a package

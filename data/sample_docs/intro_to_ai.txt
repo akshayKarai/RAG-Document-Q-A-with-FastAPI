@@ -1,0 +1,73 @@
+Introduction to Artificial Intelligence
+=======================================
+
+Artificial Intelligence (AI) is the simulation of human intelligence processes by machines,
+especially computer systems. AI research has been defined as the field of study of intelligent
+agents, which refers to any system that perceives its environment and takes actions that
+maximize its chance of achieving its goals.
+
+History of AI
+--------------
+The term "Artificial Intelligence" was coined by John McCarthy in 1956 at the Dartmouth
+Conference, which is widely considered the founding moment of AI as a discipline. Early
+AI research in the 1950s and 1960s explored topics such as problem solving and symbolic
+methods. In the 1990s, AI research developed methods for dealing with uncertain or incomplete
+information.
+
+Deep Learning Revolution
+--------------------------
+Deep learning is a subset of machine learning that uses neural networks with many layers
+(hence "deep") to learn from data. The 2012 ImageNet competition marked a turning point
+when AlexNet, a deep neural network created by Alex Krizhevsky, Ilya Sutskever, and
+Geoffrey Hinton, dramatically outperformed all other competitors.
+
+Key AI Applications
+--------------------
+1. Natural Language Processing (NLP): AI systems that can understand and generate human
+   language. Examples include translation, sentiment analysis, and question answering.
+
+2. Computer Vision: AI systems that can interpret and understand visual information from
+   the world. Applications include facial recognition, medical imaging, and autonomous vehicles.
+
+3. Robotics: The integration of AI with physical machines to perform tasks in the real world.
+   Modern robots can learn from demonstrations and adapt to new environments.
+
+4. Recommendation Systems: AI that analyzes user preferences and behavior to suggest relevant
+   content. Used widely by Netflix, YouTube, Amazon, and Spotify.
+
+Large Language Models
+----------------------
+Large Language Models (LLMs) are neural networks trained on vast amounts of text data.
+They can generate coherent text, answer questions, write code, and perform many other
+language-based tasks. Notable LLMs include GPT-4 (OpenAI), Claude (Anthropic), Gemini
+(Google), and LLaMA (Meta).
+
+Retrieval-Augmented Generation (RAG)
+--------------------------------------
+RAG is an AI framework that combines information retrieval with text generation. Instead
+of relying solely on knowledge embedded in model parameters, RAG systems first retrieve
+relevant documents from a knowledge base, then use that context to generate more accurate
+and up-to-date answers. RAG reduces hallucinations and allows models to access private
+or recent information.
+
+The typical RAG pipeline:
+- Document ingestion: Split documents into chunks and embed them into vectors
+- Indexing: Store vectors in a vector database (e.g., FAISS, Pinecone, Chroma)
+- Retrieval: Embed user query and find top-k similar document chunks
+- Generation: Pass retrieved context + query to an LLM to generate the final answer
+
+Ethical Considerations in AI
+------------------------------
+As AI systems become more capable, several ethical issues have emerged:
+- Bias and Fairness: AI models can perpetuate or amplify societal biases present in training data
+- Transparency: The "black box" nature of deep learning makes decisions hard to explain
+- Privacy: AI systems often require large amounts of personal data to train effectively
+- Safety: Ensuring AI systems behave as intended and do not cause unintended harm
+- Job Displacement: Automation powered by AI may displace certain categories of human work
+
+Future of AI
+-------------
+Researchers are actively working on Artificial General Intelligence (AGI) — AI systems that
+can perform any intellectual task a human can do. Current AI systems are considered "narrow
+AI" because they excel only at specific tasks. Multi-modal AI, combining vision, language,
+and reasoning, is a major area of current research progress.
