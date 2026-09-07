@@ -281,8 +281,3 @@ This project showcases:
 ## 📄 License
 
 MIT License — free to use, modify, and distribute.
-
----
-
-*Built with ❤️ using Anthropic Claude, FastAPI, FAISS, and Streamlit*
-
