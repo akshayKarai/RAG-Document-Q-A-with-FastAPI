@@ -264,7 +264,7 @@ You can swap `IndexFlatL2` for `IndexIVFFlat` (with training) for large-scale de
 
 ---
 
-## 🤝 Skills Demonstrated
+## 🤝 Summary
 
 This project showcases:
 
