@@ -1,4 +1,4 @@
-# DocMind — RAG Document Q&A with FastAPI
+# DocMind: RAG Document Q&A with FastAPI
 
 > **Ask questions about any document using Retrieval-Augmented Generation (RAG)**
 > Built with FastAPI · FAISS · Sentence Transformers · Claude AI · Streamlit
