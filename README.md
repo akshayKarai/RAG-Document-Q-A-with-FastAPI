@@ -275,9 +275,3 @@ This project showcases:
 - ✅ **REST API design** — FastAPI with Pydantic validation, OpenAPI docs
 - ✅ **Full-stack development** — decoupled backend + Streamlit frontend
 - ✅ **Production patterns** — error handling, chunking strategy, source attribution
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
